@@ -55,7 +55,7 @@
     [self updateCreatures];
     
     //update the generation so the label's text will display the correct generation
-    _generation++;
+    _grid.generation++;
 }
 
 @end

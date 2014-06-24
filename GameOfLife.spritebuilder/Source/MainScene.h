@@ -10,4 +10,7 @@
 
 @interface MainScene : CCNode
 
+- (void) countNeighbors;
+- (void) updateCreatures;
+
 @end
