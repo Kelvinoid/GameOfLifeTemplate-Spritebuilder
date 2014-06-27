@@ -35,7 +35,6 @@
 
 - (void)pause
 {
-    NSLog(@"PAUSED");
     [self unschedule:@selector(step)];
 }
 
